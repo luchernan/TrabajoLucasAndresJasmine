@@ -1,5 +1,5 @@
 export default {
-  spec_dir: "spec",
+  spec_dir: "tests",
   spec_files: [
     "**/*[sS]pec.?(m)js"
   ],

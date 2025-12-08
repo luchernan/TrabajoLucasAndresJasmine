@@ -113,3 +113,7 @@ class Calculator {
 
 
 const calculator = new Calculator();
+
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = Calculator;
+}
